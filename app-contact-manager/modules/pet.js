@@ -1,5 +1,3 @@
-import { reder as renderPet } from './pet.js';
-
 export const render = (pet) => {
   const { name, species, age } = pet;
   const container = document.createElement('article');
@@ -14,7 +12,7 @@ export const render = (pet) => {
 
     <button title="Delete"
       type="button"
-      lass="btn btn-secondary"
+      class="btn btn-secondary"
     >Delete</button>
 
     <button title="Edit"
