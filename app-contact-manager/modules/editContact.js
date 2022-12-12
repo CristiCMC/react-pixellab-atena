@@ -29,17 +29,17 @@ export const render = (contact) => {
 
     <label class="form-label mt-2">Email</label>
     <input type="email"
-      name="name"
+      name="email"
       class="form-control form-control-sm"
       value="${email}"
     >
 
-    <input type="hidden" name="id" value="${id}"
+    <input type="hidden" name="id" value="${id}">
 
     <div class="mt-2">
       <button type="submit"
         title="Save"
-        class="btn btn-secondary cancel-button"
+        class="btn btn-secondary me-1"
       >Save</button>
 
       <button type="button"
